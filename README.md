@@ -16,7 +16,6 @@ It’s still all the same as what in the multiple-cycle CPU:
 It’s similar with that of the multiple-cycle CPU, except that some details are a little bit different. 
 That’s we don’t have to maintain all things about each state since the dispatch logic curcuit and the control signals 
 stored in the controller can help.  
-![](./images/principle_2.png)  
 Here are exactly what in the codes (Just a relative part of the controller):  
 ```
 wire [2:0] AddrCtrl;
